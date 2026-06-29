@@ -1,3 +1,33 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(./fonts/Poppins-Regular.woff2) format("woff2");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
 
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url(./fonts/Poppins-Medium.woff2) format("woff2");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Poppins-semiBold";
+  src: url(./fonts/Poppins-SemiBold.woff2) format("woff2");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+}
+
+@theme {
+  --font-regular: "Poppins-Regular";
+  --font-medium: "Poppins-Medium";
+  --font-semiBold: "Poppins-semiBold";
+  --custom: #111111;
+  --colors-custom: #4891ff;
+}
